@@ -1,18 +1,6 @@
 (function () {
   "use strict";
 
-  // Header scroll state
-  var header = document.getElementById("siteHeader");
-  var onScroll = function () {
-    if (window.scrollY > 20) {
-      header.classList.add("scrolled");
-    } else {
-      header.classList.remove("scrolled");
-    }
-  };
-  document.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
-
   // Mobile nav toggle
   var navToggle = document.getElementById("navToggle");
   var mainNav = document.getElementById("mainNav");
