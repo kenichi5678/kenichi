@@ -517,6 +517,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 .footer-brand p { color: rgba(255,255,255,0.55); margin: 10px 0 0; font-size: 0.86rem; }
+.footer-address { margin-top: 4px !important; }
 .footer-nav { display: flex; gap: 24px; flex-wrap: wrap; }
 .footer-nav a { font-size: 0.86rem; color: rgba(255,255,255,0.7); }
 .footer-nav a:hover { color: #fff; }
