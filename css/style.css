@@ -516,6 +516,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   padding-bottom: 40px;
   border-bottom: 1px solid rgba(255,255,255,0.15);
 }
+.footer-logo { display: flex; align-items: center; gap: 10px; }
 .footer-brand p { color: rgba(255,255,255,0.55); margin: 10px 0 0; font-size: 0.86rem; }
 .footer-address { margin-top: 4px !important; }
 .footer-nav { display: flex; gap: 24px; flex-wrap: wrap; }
