@@ -131,17 +131,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   color: var(--navy-900);
   letter-spacing: 0.04em;
 }
-.logo-text small {
-  display: block;
-  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
-  font-size: 0.6rem;
-  font-weight: 500;
-  letter-spacing: 0.14em;
-  color: var(--ink-soft);
-  margin-top: 2px;
-}
 .logo-text.light { color: #fff; }
-.logo-text.light small { color: rgba(255,255,255,0.6); }
 
 .main-nav ul {
   display: flex;
