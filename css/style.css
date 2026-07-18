@@ -351,6 +351,40 @@ ul { list-style: none; margin: 0; padding: 0; }
 .strength-item h3 { color: var(--navy-900); font-size: 1.02rem; margin: 0 0 10px; font-weight: 700; }
 .strength-item p { color: var(--ink-soft); font-size: 0.88rem; margin: 0; }
 
+/* ---------------- UNIDO ---------------- */
+.unido {
+  background: var(--navy-900);
+  color: #fff;
+}
+.unido-inner {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.unido-mark {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  border: 1px solid rgba(255,255,255,0.25);
+}
+.unido .section-eyebrow { color: var(--blue-200); }
+.unido .section-title { color: #fff; }
+.unido-lead {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #fff;
+}
+.unido-text p { color: rgba(255,255,255,0.78); }
+.unido-text .unido-lead { color: #fff; }
+.unido-en {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.5) !important;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  padding-top: 16px;
+  margin-top: 20px;
+}
+
 /* ---------------- Plants ---------------- */
 .plants { background: var(--blue-50); }
 .plants-grid {
@@ -531,6 +565,8 @@ ul { list-style: none; margin: 0; padding: 0; }
 /* ---------------- Responsive ---------------- */
 @media (max-width: 980px) {
   .about-grid, .sdgs-inner { grid-template-columns: 1fr; }
+  .unido-inner { grid-template-columns: 1fr; gap: 36px; }
+  .unido-mark { max-width: 260px; margin: 0 auto; }
   .business-grid { grid-template-columns: repeat(2, 1fr); }
   .strengths-grid { grid-template-columns: repeat(2, 1fr); }
   .plants-grid { grid-template-columns: repeat(2, 1fr); }
