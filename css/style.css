@@ -260,6 +260,25 @@ ul { list-style: none; margin: 0; padding: 0; }
   letter-spacing: 0.02em;
 }
 
+/* ---------------- Message ---------------- */
+.message { border-bottom: 1px solid var(--line); }
+.message-inner { max-width: 780px; }
+.message-text p {
+  color: var(--ink-soft);
+  margin: 0 0 1.2em;
+}
+.message-sign {
+  text-align: right;
+  color: var(--navy-900) !important;
+  font-weight: 700;
+  margin-top: 34px !important;
+}
+.message-sign span {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  letter-spacing: 0.08em;
+}
+
 /* ---------------- About ---------------- */
 .about-grid {
   display: grid;
